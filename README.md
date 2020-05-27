@@ -11,6 +11,9 @@ This project is a sliding carousel that can be displayed on TV and projection sc
 [https://gist.github.com/PiiXiieeS/e8c0929e25ba1870d357bceeea18aec4](https://gist.github.com/PiiXiieeS/e8c0929e25ba1870d357bceeea18aec4)
 
 
+---
+
+
 
 Project setup
 -------------

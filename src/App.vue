@@ -4,10 +4,11 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <div class="reveal">
       <div class="slides">
-        <section>Single Horizontal Slide</section>
         <section>
-          <section>Vertical Slide 1</section>
-          <section>Vertical Slide 2</section>
+          <CreditLeaderboard/>
+        </section>
+        <section>
+          Timetable
         </section>
       </div>
     </div>
@@ -15,12 +16,12 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-import Reveal from 'reveal.js/js/reveal'
+  import Reveal from 'reveal.js/js/reveal'
+  import CreditLeaderboard from './components/CreditLeaderboard.vue'
 export default {
   name: 'app',
   components: {
-    // HelloWorld
+    CreditLeaderboard
   },
   mounted() {
     Reveal.initialize()

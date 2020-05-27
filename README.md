@@ -1,6 +1,15 @@
-# tt-screens-2020
+TŪ TOA Screens 2020
+===================
 
-## Project setup
+This project is a sliding carousel that can be displayed on TV and projection screens around the school that show a Credits Leaderboard as well as class timetable.
+
+### Inspired by
+[https://gist.github.com/PiiXiieeS/e8c0929e25ba1870d357bceeea18aec4](https://gist.github.com/PiiXiieeS/e8c0929e25ba1870d357bceeea18aec4)
+
+
+
+Project setup
+-------------
 ```
 npm install
 ```

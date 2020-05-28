@@ -4,9 +4,12 @@ TŪ TOA Screens 2020
 This project is a sliding carousel that can be displayed on TV and projection screens around the school that show a Credits Leaderboard as well as class timetable.
 
 ### Using
-* Vue.js
-* Reveal.js
-* Vuetify.js
+* Vue.js (Frontend Framework)
+* Reveal.js (Slides 'Carousel' Framework)
+* Vuetify.js (Material Design Components)
+* Firebase Firestore (Database of student data)
+* Firebase Storage (Storage of images)
+* FirebaseUI (UI for easy authentication)
 
 ### Inspired by
 [https://gist.github.com/PiiXiieeS/e8c0929e25ba1870d357bceeea18aec4](https://gist.github.com/PiiXiieeS/e8c0929e25ba1870d357bceeea18aec4)

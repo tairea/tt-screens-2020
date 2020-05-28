@@ -1,44 +1,25 @@
 <template>
-    <div id="app">
-      <!-- <img src="./assets/logo.png">
-      <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-      <div class="reveal">
-        <div class="slides">
-          <section>
-              <CreditLeaderboard/>
-          </section>
-          <section>
-            Timetable
-          </section>
-        </div>
-      </div>
-    </div>
-  </template>
-  
-  <script>
-    import Reveal from 'reveal.js/js/reveal'
-    import CreditLeaderboard from './components/CreditLeaderboard.vue'
+  <div id="app">
+    <router-view />
+  </div>
+</template>
+
+<script>
+  // import Navbar from "./components/Navbar.vue";
   export default {
-    name: 'app',
+    name: "App",
     components: {
-      CreditLeaderboard
-    },
-    mounted() {
-      Reveal.initialize()
+      // Navbar
     }
-  }
-  </script>
-  
-  <style>
-  @import url('../node_modules/reveal.js/css/reveal.css');
-  @import url('../node_modules/reveal.js/css/theme/white.css');
+  };
+</script>
+
+<style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    /* margin-top: 60px; */
-    height: 100vh;
   }
-  </style>
+</style>
